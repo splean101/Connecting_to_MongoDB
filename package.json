@@ -20,6 +20,8 @@
   "homepage": "https://github.com/splean101/Connecting_to_MongoDB#readme",
   "devDependencies": {
     "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "mongoose": "^7.0.4"
   }
-
 }
