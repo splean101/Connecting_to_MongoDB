@@ -1,0 +1,25 @@
+{
+  "name": "connecting_to_mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splean101/Connecting_to_MongoDB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/splean101/Connecting_to_MongoDB/issues"
+  },
+  "homepage": "https://github.com/splean101/Connecting_to_MongoDB#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+
+}
