@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import express from 'express';
 import { Product } from './model/product.js';
-//import { Customer } from './model/customer.js';
+
 
 const url = 'mongodb://localhost:27017/shop';
 const PORT = 3000;
@@ -23,7 +23,7 @@ mongoose
         width: fit-content; 
         margin: 0 0 20px 0; 
         padding: 0 10px">
-        ${product.name}: ${product.title} Price: ${product.price}
+        ${product.title} Price: ${product.price}
         </div>
          `
           );
